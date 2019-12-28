@@ -3,7 +3,8 @@
 Problem solutions practice fro interviews 
 
 Here will be list of approx 500 problems and solutions  by category and count and level easy ,medium and hard
--Arrays- 76 problems
+
+-Arrays  76 problems total
 01.Twosum problem - easy - done v1
 
 Strings - 49 problems
