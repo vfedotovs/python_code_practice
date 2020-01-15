@@ -89,15 +89,16 @@ def main():
 
 
 	### Main driver code
+	auth_result = authentication()
 
-	if authentication() == True:
+	if auth_result == True:
 		while True:
 			if print_choises() == '1':
 				list_records()
 			if print_choises() == '5':
 				print("Exiting application from choices menu...")
 				break
-	if authentication() == False:
+	if auth_result == False:
 		print("Exiting application failed enter valid master password 3 times ...")
 		 
 
