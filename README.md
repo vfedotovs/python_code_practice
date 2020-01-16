@@ -1,6 +1,6 @@
-### 500 Python Pactice Problems
+# 500 Python Pactice Problems
 
-# Problem solutions practice for coding Interviews  
+### Problem solutions practice for coding Interviews  
 
 Here will be list of approx 500 problems and solutions  by category and count and level easy ,medium and hard
 
@@ -18,4 +18,4 @@ Here will be list of approx 500 problems and solutions  by category and count an
 - Dynamic Programming
 - Backtracking 
 
-# Source: DS and algorithms appliacation on tablet 
+### Source: DS and algorithms appliacation on tablet 
