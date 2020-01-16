@@ -1,22 +1,21 @@
-# Python_Code_Practice 500 Problems
+### 500 Python Pactice Problems
 
-Problem solutions practice fro interviews 
+# Problem solutions practice for coding Interviews  
 
 Here will be list of approx 500 problems and solutions  by category and count and level easy ,medium and hard
 
--Arrays  76 problems total
-01.Twosum problem - easy - done v1
+- Arrays category (76 problems)
+	- 01.Twosum problem - easy - done v1
 
-Strings - 49 problems
-linked lists -24
-trees - 44
-BFS - 34
-DFS - 16
-heap 
-stack
-recursion
-DP
-backtracking 
-ect ... more to come 
+- Strings (49 problems)
+- Linked lists (24 problems)
+- Trees - (44 problems)
+- BFS - (34 problems)
+- DFS (16 problems)
+- Heap 
+- Stack
+- Recursion
+- Dynamic Programming
+- Backtracking 
 
-Soure from tablet app DS ans algos
+# Source: DS and algorithms appliacation on tablet 
