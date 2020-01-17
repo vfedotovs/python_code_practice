@@ -1,4 +1,5 @@
 # coins_problem.py
+# This is dynamic programing example
 """
 Let solve(x) denote the minimum number of coins required for a sum x.
 The values of the function depend on the values of the coins. For example, if
