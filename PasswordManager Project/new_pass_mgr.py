@@ -139,25 +139,31 @@ def process_menu_choice(some_choice: str):
     if some_choice == '5':
         save_objects_to_file(all_entry_list)
     if some_choice == '4':
-        read_objects_to_memory()
+        temp_list = read_objects_to_memory()
+        for obj in temp_list:
+            all_entry_list.append(obj)
 
 
 def save_objects_to_file(my_list):
     file_to_save = input("Enter file to save:")
     filehandler = open(file_to_save, 'wb+')
-    for e in all_entry_list:
-        pickle.dump(e, filehandler)
+    # for e in all_entry_list:
+    #    pickle.dump(e, filehandler)
+
+    # option with dumping whole list
+    pickle.dump(all_entry_list, filehandler)
     filehandler.close()
 
 
 def read_objects_to_memory():
 
-    file_to_open = input("Enter file to open:")
-    filehandler = open(file_to_open, 'rb+')
-    loaded_object = pickle.load(filehandler)
-    filehandler.close()
-    print(loaded_object)
+    fn = input("Enter file to open:")
 
+    # read multi items
+    with open(fn, 'rb') as f:
+        w_list = pickle.load(f)
+
+    return w_list
 
 
 # Main code driver
